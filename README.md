@@ -2,6 +2,20 @@
 
 A modern, interactive trivia quiz application built with React and Vite. Test your knowledge with 10 multiple-choice questions fetched from the Open Trivia Database, complete with a countdown timer and score tracking.
 
+## Screenshots
+
+### Home Page
+![Home Page](./public/img/home.png)
+
+### Login Page
+![Login Page](./public/img/login.png)
+
+### Quiz Interface
+![Quiz Page](./public/img/quiz.png)
+
+### Results Page
+![Results Page](./public/img/result.png)
+
 ## Features
 
 - **Dynamic Questions**: Fetches 10 random trivia questions from [Open Trivia DB](https://opentdb.com/)
@@ -102,4 +116,4 @@ Questions are fetched from Open Trivia DB with:
 
 ## License
 
-MIT
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
