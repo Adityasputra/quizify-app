@@ -19,5 +19,14 @@ export default function Timer() {
     return () => clearInterval(timer);
   }, [timeLeft]);
 
-  return <div>Time Left: {timeLeft}s</div>;
+  const isLow = timeLeft <= 10;
+
+  return (
+    <div className="text-center">
+      <p className="text-gray-400 text-sm">Time</p>
+      <p className={`text-xl font-semibold ${isLow ? "text-red-500" : ""}`}>
+        {timeLeft}s
+      </p>
+    </div>
+  );
 }
